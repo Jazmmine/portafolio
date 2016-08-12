@@ -1,4 +1,17 @@
 /* Tu CSS va aqui */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.peso-texto{
+    font-weight: bold;
+}
+
+#text-color-miporta{
+    color: #F2916E;
+}
+
 .bg-fondo1{
     background-image: url("../img/header.jpg");
     padding:20% 30%;
@@ -10,7 +23,7 @@
 
 .separator-container{
     margin: 3% auto;
-    border-top: 1px solid #EB5E41;
+    border-top: 2px solid #EB5E41;
     margin-left: 49%;
     margin-right: 46%;
 }
@@ -21,11 +34,149 @@
 
 }
 
-.btn-fondo{
-    background-color: #EB5E41;
-    border: none;
-    color: white;
-    border-radius: 40%;
-    padding: 2%;
+.btn-round {
+    border-width: 1px;
+    border-radius: 30px !important;
+    padding: 1% 2%;
+}
 
+.btn.btn-fill {
+    color: #FFFFFF;
+    background-color: #EB5E41;
+    opacity: 1;
+}
+
+.bg-fondo2{
+    background-color: #F05F40;
+    height: 400px;
+}
+
+.separator-container2{
+    border-top: 2px solid #fff;
+    margin-left: 48%;
+    margin-right: 48%;
+}
+
+.caja-sobremi{
+    margin: 8%;
+    color: white;
+}
+
+.caja-parrafo{
+    padding-left: 27%;
+    padding-right: 27%;
+}
+
+.caja-descripcion {
+    display: block;
+    padding: 16%;
+    margin-bottom: 10%;
+    line-height: 1.42857143;
+    background-color: #fff;
+}
+
+.caja-descripcion:hover {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+.alto-icono{
+    font-size: 4em;
+    color: #F05F40;
+}
+
+.texto-color{
+    color: black;
+}
+
+.titulo-servicios{
+    padding-top: 8%;
+}
+
+.separator-container3{
+    margin: 0.4% auto;
+    border-top: 2px solid #EB5E41;
+    margin-left: 48%;
+    margin-right: 48%;
+}
+
+.no-espacio{
+    padding: 0;
+    overflow: hidden;
+}
+
+.caja-img a {
+  display:block;
+  position:relative;
+}
+
+.caja-img  a span {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  color:white;
+  display:none;
+}
+
+.caja-img  a:hover { 
+    background:#D9573B; 
+}
+
+.caja-img  a:hover span {
+  display:block;
+}
+
+.caja-img  a:hover img {
+  opacity:0.7;
+}
+
+.bg-github{
+    background-color: #222222;
+}
+
+.cajagit{
+    color: white;
+    margin: 3%;
+}
+
+.btn.btn-fill2{
+    color: #292E50;
+    background-color: #fff;
+    opacity: 1;
+}
+
+.contenedor-pie{
+    padding-top: 8%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 0%; 
+}
+
+.separator-container-pie{
+    margin: 1.2% auto;
+    border-top: 2px solid #EB5E41;
+    margin-left: 48%;
+    margin-right: 48%;       
+}
+
+#parrafo-pie{
+    padding-left: 24%;
+    padding-right: 24%;
+}
+
+.caja-ico-pie {
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 10%;
+}
+
+.caja-ico-pie i{
+    font-size: 2em;
+}
+
+.caja-ico-pie a{
+    color: #F0718D;
 }

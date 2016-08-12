@@ -4,6 +4,11 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+.color-nav-hover:hover{
+    color: #F05F40;
+}
+
 .peso-texto{
     font-weight: bold;
 }
@@ -67,9 +72,13 @@
     padding-right: 27%;
 }
 
+.margen-servicios {
+    margin-left: 15%;
+    margin-right: 15%;
+}
 .caja-descripcion {
     display: block;
-    padding: 16%;
+    padding: 8%;
     margin-bottom: 10%;
     line-height: 1.42857143;
     background-color: #fff;
@@ -149,7 +158,7 @@
 }
 
 .contenedor-pie{
-    padding-top: 8%;
+    padding-top: 6%;
     padding-left: 8%;
     padding-right: 8%;
     padding-bottom: 0%; 
@@ -167,16 +176,31 @@
     padding-right: 24%;
 }
 
-.caja-ico-pie {
-    padding-left: 8%;
-    padding-right: 8%;
+.caja-ico-pie1 {
+    padding-left: 41%;
     margin-bottom: 10%;
 }
 
-.caja-ico-pie i{
+.caja-ico-pie2 {
+    padding-right: 41%;
+    margin-bottom: 10%;
+}
+
+.ico-1, .ico-2{
     font-size: 2em;
 }
 
-.caja-ico-pie a{
+.caja-ico-pie2 a{
     color: #F0718D;
+}
+
+@media(max-width: 900px) and (min-width: 200px) {
+    .bg-fondo1{
+        background-size: 340%;
+    }
+
+    .caja-ico-pie1, .caja-ico-pie2{
+        padding: 3% 0%;
+        margin: 0%;
+    }
 }

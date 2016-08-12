@@ -1,0 +1,31 @@
+/* Tu CSS va aqui */
+.bg-fondo1{
+    background-image: url("../img/header.jpg");
+    padding:20% 30%;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.separator-container{
+    margin: 3% auto;
+    border-top: 1px solid #EB5E41;
+    margin-left: 49%;
+    margin-right: 46%;
+}
+
+.contenedor{
+    text-align: center;
+    color: white;
+
+}
+
+.btn-fondo{
+    background-color: #EB5E41;
+    border: none;
+    color: white;
+    border-radius: 40%;
+    padding: 2%;
+
+}
